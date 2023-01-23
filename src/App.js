@@ -9,7 +9,7 @@ const App = () => {
       <Box sx={{ backgroundColor: '#000' }}>
         <NavBar />
         <Routes>
-          <Route path="/" exact element={<></>}></Route>
+          <Route path="/" exact element={<Feed />}></Route>
           <Route path="/video/:id" element={<VideoDetail />}></Route>
           <Route path="/channel/:id" element={<ChannelDetail />}></Route>
           <Route path="/search/:searchTerm" element={<SearchFeed />}></Route>
