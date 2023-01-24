@@ -12,7 +12,7 @@ const ChannelDetail = () => {
 
     const [gradientDegree, setGradientDegree] = useState(getRandomNumber(0, 360));
     const [percentageColor1, setPercentageColor1] = useState(getRandomNumber(0, 10));
-    const [percentageColor2, setPercentageColor2] = useState(getRandomNumber(35, 65));
+    const [percentageColor2, setPercentageColor2] = useState(getRandomNumber(30, 70));
     const [percentageColor3, setPercentageColor3] = useState(getRandomNumber(90, 100));
 
     const { id } = useParams();
